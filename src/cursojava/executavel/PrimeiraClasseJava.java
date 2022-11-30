@@ -1,7 +1,7 @@
 package cursojava.executavel;
 
 import cursojava.classes.Aluno;
-
+/* Instanciando a classe */
 public class PrimeiraClasseJava {
 
     public static void main(String[] args) {
