@@ -14,7 +14,6 @@ public class Aluno {
     * que é public. */
     public String nome;
     public int idade;
-    public String dataNascimento;
     
     public Aluno() {
         // Cria os dados da memória - construtor padrão Java

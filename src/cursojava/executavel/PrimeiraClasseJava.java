@@ -19,6 +19,12 @@ public class PrimeiraClasseJava {
         Aluno aluno3 = new Aluno();
         aluno3.nome = "Maria";
         System.out.println("O nome do aluno 3 é: " + aluno3.nome);
+        
+        Aluno aluno4 = new Aluno("Marmota");        
+        System.out.println("O nome do aluno 4 é: " + aluno4.nome);
+        
+        Aluno aluno5 = new Aluno("José", 50);
+        System.out.println("O nome do aluno 5 é " + aluno5.nome + " e sua idade é " + aluno5.idade);
                 
     }
     
