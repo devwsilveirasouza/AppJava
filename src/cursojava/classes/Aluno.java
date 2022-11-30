@@ -13,7 +13,20 @@ public class Aluno {
     * para ter acesso publico é preciso informar no atributo 
     * que é public. */
     public String nome;
-    int idade;
-    String dataNascimento;
+    public int idade;
+    public String dataNascimento;
     
+    public Aluno() {
+        // Cria os dados da memória - construtor padrão Java
+    }
+    
+    public Aluno(String nomePadrao) {
+        // Cria os dados na memória com dados definidos - construtor padrão Java
+        nome = nomePadrao;
+    }
+    
+    public Aluno (String nomePadrao, int idadePadrao) {
+        nome = nomePadrao;
+        idade = idadePadrao; 
+    }
 }
