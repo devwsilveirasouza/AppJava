@@ -8,8 +8,8 @@ public class Aluno {
     /* Por default o Java cria os atributos como private. 
     * para ter acesso publico é preciso informar no atributo 
     * que é public. */
-    public String nome;
-    public int idade;
+    private String nome;
+    private int idade;
     
     public Aluno() {
         // Cria os dados da memória - construtor padrão Java
@@ -24,4 +24,25 @@ public class Aluno {
         nome = nomePadrao;
         idade = idadePadrao; 
     }
+    
+    /* Métodos SETTERS e GETTERS do Objeto */
+    // Recebe dados
+
+    public String getNome() {
+        return nome;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+    
+     
 }
